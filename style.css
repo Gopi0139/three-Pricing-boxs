@@ -1,0 +1,39 @@
+body {
+  font-family: "Times New Roman";
+  margin: 0;
+  padding: 40px;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding:20px;
+}
+
+.pricing-box {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.pricing-box:hover {
+  transform: rotate(2deg);
+}
+
+.featured {
+  flex-grow: 1;
+  background-color: #e0f7fa;
+  border: 2px solid #00acc1;
+}
